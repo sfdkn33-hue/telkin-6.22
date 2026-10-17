@@ -1,0 +1,37 @@
+TELKİN v6.22 — UZUN SÜRÜM OYNANIŞ QA
+
+[OK] 19 JavaScript dosyası (sw dahil): node --check temiz.
+[OK] 163 JSON dosyası: parse hatası 0.
+[OK] v6.21 → v6.22 gameplay.js SHA-256 birebir korundu; 958 fiziksel görev iskeleti değişmedi.
+[OK] Oynanış: 144 bölüm / 958 görev; konuşma 263, fiziksel/non-dialogue 695.
+[OK] Uzun roman kaynağı: 144 bölüm / 318974 kelime / manifest paragraf toplamı 38677.
+[OK] Uzun-form mapping: 144 bölüm / 372 sahne; her bölümde paragraf 0→son tam ve çakışmasız kapsanıyor.
+[OK] Mapping kelime toplamı roman manifestiyle tam eşleşiyor: 318974.
+[OK] 144 gerçek bölüm dosyası mapping ile çapraz doğrulandı: 38677 paragraf / 318974 kelime.
+[OK] uzun oynanış ana çağrısı.
+[OK] fallback korunuyor.
+[OK] runtime sürüm.
+[OK] save schema korunuyor.
+[OK] Uzun sahne runtime: lazy roman yükleme + paragraf aralığı + mobil sayfalama mevcut.
+[OK] Long-play DOM id tekil: longPlayScene.
+[OK] Long-play DOM id tekil: lpKicker.
+[OK] Long-play DOM id tekil: lpTitle.
+[OK] Long-play DOM id tekil: lpLocation.
+[OK] Long-play DOM id tekil: lpProgress.
+[OK] Long-play DOM id tekil: lpBody.
+[OK] Long-play DOM id tekil: lpReadBar.
+[OK] Long-play DOM id tekil: lpNext.
+[OK] Long-play DOM id tekil: lpSkip.
+[OK] Uzun sahne CSS: desktop/mobile overlay ve okuma progress katmanı mevcut.
+[OK] Service Worker cache v6.22.
+[OK] Yeni uzun-oynanış JS dosyaları offline shell içinde.
+[OK] 144/144 uzun roman bölüm dosyası ilk offline cache kurulumunda yer alıyor.
+[OK] index.html v6.22 uzun-form etiketleri eşleşiyor.
+
+SAHA QA NOTU
+- 318.974 kelimenin tamamı oyuna bağlıdır; hiçbir paragraf kapsam dışında değildir.
+- Sahne/paragraf sınırları otomatik olarak kronolojik, sözcüksel ve konumsal işaretlerle eşlendi. Bölüm 1 başlangıç deneyimi ayrıca elle sahne sınırı kontrolünden geçirildi. Bu teknik olarak tam kapsama sağlar; dramaturjik olarak en iyi kesim noktaları Android gerçek oynanışında elle ince ayarlanabilir.
+- Mevcut 958 fiziksel görev korunmuştur. v6.22'nin amacı görev sayısını şişirmek değil, görevler arasındaki anlatıyı yeni uzun roman sürümüne çevirmektir.
+- Uzun sahne metni yaklaşık 240–330 kelimelik sayfalara bölünür; çok kısa diyalog paragraflarında sayfa başına en fazla 26 paragraf kullanılır.
+- Uzun roman dosyaları service worker ilk kurulumunda cache'e alınır; uzun sürüm internet olmadan da çalışacak biçimde paketlenmiştir.
+- Canlı GitHub değiştirilmedi.

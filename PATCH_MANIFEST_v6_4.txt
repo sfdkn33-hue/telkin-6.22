@@ -1,0 +1,25 @@
+TELKİN v6.4 PATCH MANIFEST
+
+data/characters.json	17129	sha256:d79d745543348270
+src/data/character-packs.js	18758	sha256:091c71fb37fb530b
+src/core/game.js	395206	sha256:386845280edf8a3c
+index.html	11408	sha256:aa9828266a97f432
+sw.js	1562	sha256:26c634417449b9c0
+README.md	730	sha256:388cd83364f42859
+PROJE_DURUMU.md	1448	sha256:6462480ee7e5ea8f
+V6_4_PATCH_NOTES.md	893	sha256:d151f61e8161e26a
+assets/characters/selin/README.md	402	sha256:392a59dcf8b5d8dd
+assets/characters/selin/front-idle.webp	62144	sha256:ba7e59cb44564c50
+assets/characters/selin/front-walk1.webp	49904	sha256:73e8f59f0500a8c6
+assets/characters/selin/front-walk2.webp	51714	sha256:76032749e1c72763
+assets/characters/selin/back-idle.webp	45878	sha256:80baef15edc00d1d
+assets/characters/selin/back-walk1.webp	50004	sha256:2d75ef1581d28059
+assets/characters/selin/back-walk2.webp	50858	sha256:62bd9bdc03d86d76
+assets/characters/selin/left-idle.webp	39850	sha256:b5c384337897c664
+assets/characters/selin/left-walk1.webp	56466	sha256:d78a58adf92cdea5
+assets/characters/selin/left-walk2.webp	58262	sha256:9934a1fee6b1d325
+assets/characters/selin/right-idle.webp	39086	sha256:f8b745179dc2379a
+assets/characters/selin/right-walk1.webp	53388	sha256:31b79ddfc0002735
+assets/characters/selin/right-walk2.webp	56578	sha256:fab8a286ed9e8e9e
+assets/characters/reference/v6_4-selin-qa.jpg	96262	sha256:e5ed9b34ae0d180e
+assets/characters/reference/v6_4-selin-source-atlas.png	863033	sha256:52b55094e21d4827

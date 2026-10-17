@@ -1,0 +1,25 @@
+TELKİN v6.8 PATCH MANIFEST
+
+data/characters.json	20085	sha256:fa41cc4fec98443e
+src/data/character-packs.js	20983	sha256:d4a5f53f3b65855e
+src/core/game.js	395206	sha256:7139a52e9c676d9b
+index.html	11461	sha256:d36834c6d94ca98f
+sw.js	1562	sha256:0b68b2bc70805e56
+README.md	367	sha256:b79fb07e3ceb0016
+PROJE_DURUMU.md	311	sha256:a1775199639ad369
+V6_8_PATCH_NOTES.md	209	sha256:d6ded24e277c12e0
+assets/characters/nisan/README.md	253	sha256:377ff12a11e99fb1
+assets/characters/nisan/front-idle.webp	110134	sha256:262595b985f2e95c
+assets/characters/nisan/front-walk1.webp	108506	sha256:ea544ff8bcf65efd
+assets/characters/nisan/front-walk2.webp	107908	sha256:4f7d20898df8b12e
+assets/characters/nisan/back-idle.webp	114540	sha256:4ba6e9e33eeadade
+assets/characters/nisan/back-walk1.webp	110504	sha256:573fab55569d599f
+assets/characters/nisan/back-walk2.webp	110556	sha256:56f9f50244dbf1d5
+assets/characters/nisan/right-idle.webp	85900	sha256:e4a3b46e68eb5e54
+assets/characters/nisan/right-walk1.webp	98750	sha256:c8eafe2ad6879a08
+assets/characters/nisan/right-walk2.webp	102660	sha256:4b31132c2fb1424d
+assets/characters/nisan/left-idle.webp	95452	sha256:d6c087d3d7f45c87
+assets/characters/nisan/left-walk1.webp	97824	sha256:057288b4c765d576
+assets/characters/nisan/left-walk2.webp	88032	sha256:5cdacca6fce2da60
+assets/characters/reference/v6_8-nisan-qa.jpg	136814	sha256:77ab097b2e5b8214
+assets/characters/reference/v6_8-nisan-source-atlas.png	1771373	sha256:152d024be97f43f4

@@ -1,0 +1,25 @@
+TELKİN v6.3 PATCH MANIFEST
+
+data/characters.json	16050	sha256:dbbad0f1f530e623
+src/data/character-packs.js	17984	sha256:765468cfee216788
+src/core/game.js	395206	sha256:68035198e9606614
+index.html	11392	sha256:f4c7bcddeea6ac55
+sw.js	1562	sha256:3a8636dcc1a71dbe
+README.md	825	sha256:34bd80bec811ee92
+PROJE_DURUMU.md	1491	sha256:21e45cc957b23053
+V6_3_PATCH_NOTES.md	903	sha256:aed268f0ff8cab96
+assets/characters/leyla/README.md	832	sha256:408c16a3649360c4
+assets/characters/leyla/front-idle.webp	30610	sha256:0359a8dde7e5046f
+assets/characters/leyla/front-walk1.webp	29708	sha256:2c0b0694a508b8ff
+assets/characters/leyla/front-walk2.webp	31388	sha256:93155514f4ce3239
+assets/characters/leyla/back-idle.webp	31752	sha256:39bf7d513c8aa8c1
+assets/characters/leyla/back-walk1.webp	30196	sha256:62609d7ed49a6c13
+assets/characters/leyla/back-walk2.webp	30534	sha256:08322a2b0de1c2b3
+assets/characters/leyla/right-idle.webp	22576	sha256:04fbf88d3e68b1c0
+assets/characters/leyla/right-walk1.webp	36210	sha256:c81a1d9964b7d056
+assets/characters/leyla/right-walk2.webp	34586	sha256:651d6f62699645bf
+assets/characters/leyla/left-idle.webp	22656	sha256:972fa5661d885fd5
+assets/characters/leyla/left-walk1.webp	37082	sha256:107cde0a463874f1
+assets/characters/leyla/left-walk2.webp	34186	sha256:52c32999158bd0ad
+assets/characters/reference/v6_3-leyla-qa.jpg	285323	sha256:493d9afa7e69ca85
+assets/characters/reference/v6_3-leyla-source-atlas.png	759512	sha256:271cc97e8ea54091

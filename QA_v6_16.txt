@@ -1,0 +1,29 @@
+TELKİN v6.16 — STATIC / GEOMETRY QA
+
+[OK] 16 JavaScript dosyası: node --check temiz.
+[OK] 163 JSON dosyası: parse hatası 0.
+[OK] assets.js içindeki 30 yerel asset yolu: eksik 0.
+[OK] 144 bölüm mevcut.
+[OK] 958 görev adımı mevcut; konuşma 263, fiziksel/non-dialogue 695.
+[OK] v6.15 → v6.16 gameplay veri dosyası birebir korundu (görev içeriği değişmedi).
+[OK] dinamik collider kayıt/reset zinciri.
+[OK] seçili sandalye grup + collider.
+[OK] çekmece üretim + dinamik collider.
+[OK] hareket alanı güvenliği.
+[OK] atlas blocked dinamik footprint.
+[OK] merdiven basamakları.
+[OK] merdiven groundY.
+[OK] merdiven yan collision.
+[OK] görev önceliği.
+[OK] v6.16 sürüm etiketi.
+[OK] TR v6.16 bağlamsal anahtarlar 9/9.
+[OK] EN v6.16 bağlamsal anahtarlar 9/9.
+[OK] Service Worker cache: telkin-v6-16-shell-1.
+[OK] index.html ilk yükleme sürüm etiketi v6.16 ile eşleşiyor.
+[OK] Merdiven geometri testi: 5 basamak yüksekliği 0.10 → 0.50 m monoton.
+[OK] Görev hedefi 2.20 m öncelik eşiği kaynakta korunuyor.
+
+SAHA QA NOTU
+- Bu ortamda gerçek mobil GPU/WebGL hissi güvenilir biçimde ölçülemiyor.
+- Gerçek telefonda özellikle sandalye aç/kapat sırasında oyuncuya çarpma reddi, çekmece footprint'i, düşük FPS+sprint ve merdivende kamera yüksekliği kontrol edilmeli.
+- Canlı GitHub değiştirilmedi.

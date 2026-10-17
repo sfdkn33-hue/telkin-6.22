@@ -1,0 +1,24 @@
+TELKİN v6.10.1 PATCH MANIFEST
+
+data/characters.json	20377	sha256:c5111f58837ccb1b
+src/data/character-packs.js	21042	sha256:5772ff6e1bcc8064
+src/core/game.js	395208	sha256:dc3a3a9aa4f0dc6e
+index.html	11465	sha256:ff3f877d87d53cf0
+sw.js	1565	sha256:c6ddae19c0ba00dc
+README.md	411	sha256:e601b880d68a7515
+PROJE_DURUMU.md	644	sha256:677d8f4deb90ffa6
+V6_10_1_PATCH_NOTES.md	300	sha256:413468dad0a447d6
+assets/characters/reference/v6_10_1-all-characters-qa.jpg	204176	sha256:a8a24cf42ad76e65
+assets/characters/reference/v6_10-mahir-pre-normalize.zip	315072	sha256:69aae205462b2dea
+assets/characters/mahir/back-idle.webp	146990	sha256:163108388f293239
+assets/characters/mahir/back-walk1.webp	141870	sha256:4bc098fdfcb9f640
+assets/characters/mahir/back-walk2.webp	137834	sha256:2570e0bd4188be73
+assets/characters/mahir/front-idle.webp	147936	sha256:62955eeef459c094
+assets/characters/mahir/front-walk1.webp	140858	sha256:e65a8c56e3a0ea0e
+assets/characters/mahir/front-walk2.webp	138574	sha256:bd51c409bfc5c792
+assets/characters/mahir/left-idle.webp	136062	sha256:8ac9506e3549e86f
+assets/characters/mahir/left-walk1.webp	141950	sha256:405fa3564e05d3d4
+assets/characters/mahir/left-walk2.webp	148082	sha256:412b5f437467a92c
+assets/characters/mahir/right-idle.webp	135550	sha256:37b7fadbe8eb87f1
+assets/characters/mahir/right-walk1.webp	142416	sha256:c9c4a7bb2243b87c
+assets/characters/mahir/right-walk2.webp	147570	sha256:c71a74ffd54672e2

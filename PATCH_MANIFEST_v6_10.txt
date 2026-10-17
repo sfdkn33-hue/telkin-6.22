@@ -1,0 +1,25 @@
+TELKİN v6.10 PATCH MANIFEST
+
+data/characters.json	20205	sha256:af1263955922cba7
+src/data/character-packs.js	21027	sha256:2f573078af039085
+src/core/game.js	395208	sha256:fbccd220580bb29b
+index.html	11465	sha256:30b8d02ac7b34802
+sw.js	1563	sha256:049c2f6866be1d87
+README.md	429	sha256:69439de456172578
+PROJE_DURUMU.md	623	sha256:e3077542af230b9a
+V6_10_PATCH_NOTES.md	241	sha256:aff9e8b3ce766070
+assets/characters/baran/README.md	168	sha256:f3f470dcbf90b273
+assets/characters/baran/front-idle.webp	145988	sha256:2cf39f53e0e8630e
+assets/characters/baran/front-walk1.webp	131440	sha256:57b3390cc3aa1a32
+assets/characters/baran/front-walk2.webp	130552	sha256:4e8e7ca340d36fd9
+assets/characters/baran/back-idle.webp	142886	sha256:5bc796e985add95b
+assets/characters/baran/back-walk1.webp	132250	sha256:d8bb919082657703
+assets/characters/baran/back-walk2.webp	128298	sha256:32e07bb62bc41d6d
+assets/characters/baran/right-idle.webp	93162	sha256:a09bff2c34a68514
+assets/characters/baran/right-walk1.webp	104608	sha256:ec39bcebc766e7a3
+assets/characters/baran/right-walk2.webp	100408	sha256:a4fc4333f1fdc5be
+assets/characters/baran/left-idle.webp	98594	sha256:52bd4e510eab4423
+assets/characters/baran/left-walk1.webp	96100	sha256:02b7db223bcbb5cb
+assets/characters/baran/left-walk2.webp	92072	sha256:56dd6b4111bbf202
+assets/characters/reference/v6_10-baran-qa.jpg	139125	sha256:5975ff2b49367669
+assets/characters/reference/v6_10-baran-source-atlas.png	846626	sha256:5b9d9bb097cd7ec7

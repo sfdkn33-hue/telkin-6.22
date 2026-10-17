@@ -1,0 +1,39 @@
+TELKİN v6.11 QA RAPORU
+
+KARAKTER RUNTIME
+- Yönlü kare sayısı: 132/132
+- Beklenen boyut: 384x768
+- Karakter asset sorunu: 0
+
+MEKÂN MANİFESTİ
+- Toplam mekân: 108
+- Gerçek scene.json kullanan manifest girdisi: 14
+- Procedural-only placeholder mekân: 94
+- v6.11: procedural-only paketler artık scene.json fetch etmez.
+- Fiziksel scene.json dosyası: 11
+- JSON parse sorunu: 0
+
+BÖLÜM VERİSİ
+- Bölüm: 144/144
+- Mekân listesi: 108/108
+- Gameplay profil: 144/144
+- Chapter↔location çapraz liste farkı: 0
+
+BÖLÜM 8 / FIRIN SOKAĞI
+- Spawn -> en uzak hedef: 6.13 m
+- Ardışık iki hedef arasındaki maksimum mesafe: 3.59 m
+- 250 m karanlık yürüyüş rotası: YOK
+- Hedefler: açık sokak hattı; bina içine girme gerekmiyor.
+
+MANİFEST TEMİZLİĞİ
+- Paketlenmemiş duygu/oturma poz referansı: 0 (v6.10.2'de 60 idi)
+- poses alanları bilinçli olarak boş + poseStatus=not-packaged-v6.11.
+
+JS SÖZDİZİM
+- location-loader.js: OK
+- character-packs.js: OK
+- game.js: OK
+- sw.js: OK
+
+CANLI GITHUB
+- DEĞİŞTİRİLMEDİ.

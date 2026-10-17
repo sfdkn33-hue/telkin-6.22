@@ -1,0 +1,35 @@
+TELKİN v6.20 — STATIC / ACTIVE PROP USE QA
+
+[OK] 16 JavaScript dosyası: node --check temiz.
+[OK] 163 JSON dosyası: parse hatası 0.
+[OK] assets.js içindeki 30 yerel asset yolu: eksik 0.
+[OK] 144 bölüm mevcut.
+[OK] 958 görev adımı mevcut; konuşma 263, fiziksel/non-dialogue 695.
+[OK] Aktif nesne kullanımı kapsamı: 270 görev (telefon 16, ses 18, kamera 35, belge 163, hatıra 38).
+[OK] v6.19 → v6.20 gameplay.js binary/SHA-256 olarak birebir korundu.
+[OK] aktif kullanım ilerlemesi.
+[OK] telefon aktif ekranı.
+[OK] recorder REC/VU.
+[OK] kamera deklanşör/flaş.
+[OK] belge sayfa çevirme.
+[OK] fotoğraf inceleme dönüşü.
+[OK] tek seferlik kullanım cue latch.
+[OK] prop olmayan özel sahnede cue korunuyor.
+[OK] save schema korunuyor.
+[OK] runtime sürüm metadata.
+[OK] primitif Mahir rig kapalı.
+[OK] Procedural SFX mevcut: camera_shutter.
+[OK] Procedural SFX mevcut: phone_connect.
+[OK] Procedural SFX mevcut: recorder_rec.
+[OK] Procedural SFX mevcut: page_flip.
+[OK] Procedural SFX mevcut: photo_flip.
+[OK] Aktif kullanım transient; save payload içine sızmıyor.
+[OK] index.html v6.20 etiketleri eşleşiyor.
+[OK] Service Worker cache v6.20.
+
+SAHA QA NOTU
+- Bu ortam gerçek Android GPU/WebGL kamera hissini güvenilir biçimde ölçemez.
+- Telefonda kamera flaşının parlaklığı, recorder VU çubuklarının okunurluğu, telefon ekranının kulak pozunda taşma yapmaması ve belge sayfa dönüşünün clipping yapıp yapmadığı kontrol edilmeli.
+- Bölüm 1–2 gibi bespoke sahnelerde gameplay prop objesi olmasa da mid-use SFX tetikleme yolu korunmuştur.
+- Save schema 18 değişmedi; aktif nesne kullanımı transient'tir.
+- Canlı GitHub değiştirilmedi.

@@ -1,0 +1,43 @@
+TELKİN v6.21 — STATIC / CINEMATIC PROP FOCUS QA
+
+[OK] 16 JavaScript dosyası: node --check temiz.
+[OK] 163 JSON dosyası: parse hatası 0.
+[OK] assets.js içindeki 30 yerel asset yolu: eksik 0.
+[OK] 144 bölüm mevcut.
+[OK] 958 görev adımı mevcut; konuşma 263, fiziksel/non-dialogue 695.
+[OK] Sinematik elde-nesne kapsamı 270 görev: telefon 16, ses 18, kamera 35, belge 163, hatıra 38.
+[OK] v6.20 → v6.21 gameplay.js SHA-256 olarak birebir korundu.
+[OK] sinematik focus zarfı.
+[OK] kamera non-destructive blend.
+[OK] kamera occlusion korunuyor.
+[OK] viewfinder/telefon/belge overlay sürücüsü.
+[OK] telefon karşı taraf çıkarımı.
+[OK] save schema korunuyor.
+[OK] runtime sürüm metadata.
+[OK] primitif Mahir rig kapalı.
+[OK] Overlay DOM id tekil: cinematicUse.
+[OK] Overlay DOM id tekil: cinUseKicker.
+[OK] Overlay DOM id tekil: cinUseTitle.
+[OK] Overlay DOM id tekil: cinUseMeta.
+[OK] Overlay DOM id tekil: vfLabel.
+[OK] Overlay DOM id tekil: cinPhoneState.
+[OK] Overlay DOM id tekil: cinPhoneName.
+[OK] Overlay DOM id tekil: cinDocKicker.
+[OK] Overlay DOM id tekil: cinDocTitle.
+[OK] Overlay DOM id tekil: cinDocGoal.
+[OK] Sinematik overlay CSS: viewfinder / phone / document / reduced-motion / non-blocking input mevcut.
+[OK] tr cinematicUse i18n: 13/13 anahtar mevcut.
+[OK] en cinematicUse i18n: 13/13 anahtar mevcut.
+[OK] Telefon karşı taraf smoke test: Bölüm 1 telefon sahnesi → MİNA.
+[OK] Sinematik katman transient; save payload içine sızmıyor.
+[OK] index.html v6.21 etiketleri eşleşiyor.
+[OK] Service Worker cache v6.21.
+
+SAHA QA NOTU
+- Bu ortam gerçek Android GPU/WebGL kamera hissini güvenilir biçimde ölçemez.
+- Telefonda dikey/yatay ekran oranlarında arama HUD, belge kartı taşması ve viewfinder kenarlarının güvenli alanla çakışması kontrol edilmeli.
+- Omuz kamerası mevcut resolveCameraOcclusion zincirinden geçtiği için duvar/masa içinden geçmeyi azaltır; gerçek cihazda dar odalarda ayrıca test edilmeli.
+- Telefon kişi adı yalnız mevcut sahnenin replik konuşmacılarından çıkarılır; uygun isim bulunamazsa HAT/LINE fallback kullanılır.
+- Belge yakın planı henüz oynanmamış anlatı repliklerini göstermediği için spoiler üretmez.
+- Save schema 18 değişmedi; sinematik katman transient'tir.
+- Canlı GitHub değiştirilmedi.

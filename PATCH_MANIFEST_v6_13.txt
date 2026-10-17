@@ -1,0 +1,11 @@
+TELKİN v6.13 PATCH
+
+Değişen / eklenen dosyalar:
+- assets/props/door-wood.webp
+- src/data/assets.js
+- src/core/game.js
+- sw.js
+- V6_13_PATCH_NOTES.md
+- PATCH_MANIFEST_v6_13.txt
+- QA_v6_13.txt
+- PROJE_DURUMU.md

@@ -1,0 +1,25 @@
+TELKİN v6.9 PATCH MANIFEST
+
+data/characters.json	20106	sha256:2e890aa1f52f5c75
+src/data/character-packs.js	20960	sha256:c1072622f47376a4
+src/core/game.js	395206	sha256:9951fc493787fe55
+index.html	11467	sha256:7a2d11a882b54b08
+sw.js	1562	sha256:231c08961b1ad677
+README.md	333	sha256:62adec3e3a6ae0fa
+PROJE_DURUMU.md	211	sha256:35b74e8d0aff2e16
+V6_9_PATCH_NOTES.md	142	sha256:f80957804724e6f4
+assets/characters/mina/README.md	167	sha256:a21da7dab7fcf607
+assets/characters/mina/front-idle.webp	126112	sha256:42a33310971d52a8
+assets/characters/mina/front-walk1.webp	118980	sha256:d511aaa073f801e8
+assets/characters/mina/front-walk2.webp	112270	sha256:33378b67128b7489
+assets/characters/mina/back-idle.webp	116794	sha256:bc5a5b636e1f2937
+assets/characters/mina/back-walk1.webp	112290	sha256:8063fcd6c262bb11
+assets/characters/mina/back-walk2.webp	112418	sha256:9fb2a39da0b9d2ca
+assets/characters/mina/right-idle.webp	91128	sha256:fa7d375f7ba5b00e
+assets/characters/mina/right-walk1.webp	114466	sha256:52cbd8b8bd3cc9b9
+assets/characters/mina/right-walk2.webp	111502	sha256:313e1462f02e4c67
+assets/characters/mina/left-idle.webp	101368	sha256:1586aef89b841c45
+assets/characters/mina/left-walk1.webp	65172	sha256:aa907a06c18f1661
+assets/characters/mina/left-walk2.webp	105018	sha256:37a298480d02e1ea
+assets/characters/reference/v6_9-mina-qa.jpg	136996	sha256:e52305308bda0d19
+assets/characters/reference/v6_9-mina-source-atlas.png	1776534	sha256:2fd32e31f24c4ad3

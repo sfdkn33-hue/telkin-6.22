@@ -1,0 +1,30 @@
+TELKİN v6.19 — STATIC / HANDHELD PROP QA
+
+[OK] 16 JavaScript dosyası: node --check temiz.
+[OK] 163 JSON dosyası: parse hatası 0.
+[OK] assets.js içindeki 30 yerel asset yolu: eksik 0.
+[OK] 144 bölüm mevcut.
+[OK] 958 görev adımı mevcut; konuşma 263, fiziksel/non-dialogue 695.
+[OK] Elde tutulan nesne katmanı kapsamı: 270 görev (telefon 16, ses 18, kamera 35, belge 163, hatıra 38).
+[OK] v6.18 → v6.19 gameplay.js binary/SHA-256 olarak birebir korundu.
+[OK] held prop step sınıflandırması.
+[OK] alma-tutma-geri bırakma envelope.
+[OK] Mahir yönüne bağlı dünya ankrajı.
+[OK] telefon kulak hizası.
+[OK] kamera yüz hizası.
+[OK] elde çizim katmanı.
+[OK] kaynak nesne bastırma.
+[OK] kamera fiziksel gövdesi.
+[OK] linked action propKind.
+[OK] save schema korunuyor.
+[OK] primitif Mahir rig kapalı.
+[OK] Elde tutulan nesne transient; save payload içine sızmıyor.
+[OK] index.html v6.19 etiketleri eşleşiyor.
+[OK] Service Worker cache v6.19.
+[OK] Runtime console / badge v6.19 ile eşleşiyor.
+
+SAHA QA NOTU
+- Bu çalışma ortamı gerçek telefon GPU/WebGL hissini güvenilir biçimde ölçemez.
+- Telefonda özellikle telefonun kulağa yakınlığı, belge/fotoğraf ölçeği, kameranın yüz hizası ve dar iç mekânda objenin Mahir sprite'ı önünde/arkasında okunuşu kontrol edilmeli.
+- Held prop yalnız etkileşim süresince yaşar; save schema 18 değişmemiştir.
+- Canlı GitHub değiştirilmedi.

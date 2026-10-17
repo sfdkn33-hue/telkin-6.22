@@ -1,0 +1,27 @@
+TELKİN v6.13 — STATIC QA
+
+[OK] 16 JavaScript dosyası: node --check temiz.
+[OK] 163 JSON dosyası: parse hatası 0.
+[OK] assets.js içindeki 30 yerel asset yolu: eksik 0.
+[OK] Gerçek kapı runtime asseti: assets/props/door-wood.webp (512×1162 WebP).
+[OK] doorWood texture loader bağlantısı mevcut.
+[OK] Gerçek menteşe pose hesabı mevcut.
+[OK] Hareketli door-leaf AABB collision mevcut.
+[OK] Eşik collision açılma açısına bağlı olarak kontrollü bırakılıyor.
+[OK] Kapı kolu basma animasyonu mevcut.
+[OK] Service Worker kapı assetini önbelleğe alıyor.
+[OK] Cache: telkin-v6-13-shell-1.
+[OK] Sürüm etiketi: v6.13 · DOOR INTERACTION.
+[OK] Canlı GitHub değiştirilmedi.
+
+GEOMETRİ KONTROLÜ
+- Kapalı kapı merkezi ≈ (4.910, -1.470)
+- Tam açık kapı merkezi ≈ (4.431, -1.920)
+- Kapalı yaprak AABB ≈ x[4.865,4.955] z[-1.950,-0.990]
+- Açık yaprak AABB ≈ x[3.949,4.913] z[-1.995,-1.845]
+
+SONRAKİ SAHA QA
+- Gerçek telefonda kapı açılırken kamera/karakter çakışması.
+- Kapı eşiğinden sprint geçişi.
+- Açık kapının arkasına sıkışma testi.
+- Bölüm 1 kapı anlatısı ile fiziksel kapı durumunun sahne sahne eşleşmesi.

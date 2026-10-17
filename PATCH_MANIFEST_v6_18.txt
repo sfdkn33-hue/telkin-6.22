@@ -1,0 +1,19 @@
+TELKİN v6.18 PATCH
+
+BASE: v6.17 STAGING PERSISTENT ENVIRONMENT
+TARGET: v6.18 STAGING PHYSICAL BODY USE
+
+DEĞİŞEN DOSYALAR
+- index.html
+- sw.js
+- src/core/game.js
+- locales/tr.json
+- locales/en.json
+- README.md
+- PROJE_DURUMU.md
+- V6_18_PATCH_NOTES.md
+- QA_v6_18.txt
+- PATCH_MANIFEST_v6_18.txt
+
+CANLI GITHUB: DEĞİŞTİRİLMEDİ
+SAVE SCHEMA: 18 (DEĞİŞMEDİ)

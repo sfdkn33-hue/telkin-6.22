@@ -1,0 +1,15 @@
+TELKİN v6.16 PATCH
+
+v6.15 üzerine değişen dosyalar:
+- src/core/game.js
+- locales/tr.json
+- locales/en.json
+- sw.js
+- index.html
+- README.md
+- PROJE_DURUMU.md
+- V6_16_PATCH_NOTES.md
+- QA_v6_16.txt
+- PATCH_MANIFEST_v6_16.txt
+
+Yeni harici asset yok.

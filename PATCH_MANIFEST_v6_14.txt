@@ -1,0 +1,9 @@
+TELKİN v6.14 PATCH
+
+Değişen / eklenen dosyalar:
+- src/core/game.js
+- sw.js
+- V6_14_PATCH_NOTES.md
+- PATCH_MANIFEST_v6_14.txt
+- QA_v6_14.txt
+- PROJE_DURUMU.md

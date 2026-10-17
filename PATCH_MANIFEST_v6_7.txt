@@ -1,0 +1,25 @@
+TELKİN v6.7 PATCH MANIFEST
+
+data/characters.json	20036	sha256:5e2f75d9380be989
+src/data/character-packs.js	20966	sha256:9732bfdc05d72f99
+src/core/game.js	395206	sha256:1f67f9f126fa9d6f
+index.html	11455	sha256:dc64a173f5a8e33b
+sw.js	1562	sha256:ef78575e638eed4f
+README.md	473	sha256:c879c248ce0bd224
+PROJE_DURUMU.md	451	sha256:56e2b3f3a8bba6fb
+V6_7_PATCH_NOTES.md	235	sha256:6312117637989e06
+assets/characters/doktor/README.md	234	sha256:590e72255193c99e
+assets/characters/doktor/front-idle.webp	118580	sha256:07c88f7b107804ac
+assets/characters/doktor/front-walk1.webp	122088	sha256:4db7b231e55a5393
+assets/characters/doktor/front-walk2.webp	117784	sha256:32521bb63f0be075
+assets/characters/doktor/back-idle.webp	106088	sha256:4ce3900b00f556cc
+assets/characters/doktor/back-walk1.webp	102002	sha256:1c7dec257ed2c540
+assets/characters/doktor/back-walk2.webp	106274	sha256:b81b999b1961a543
+assets/characters/doktor/right-idle.webp	83014	sha256:e96c6616f055a1fe
+assets/characters/doktor/right-walk1.webp	97602	sha256:69c785b04acdab12
+assets/characters/doktor/right-walk2.webp	88986	sha256:d153a015b67a5e4f
+assets/characters/doktor/left-idle.webp	86940	sha256:339ee58d67e3643c
+assets/characters/doktor/left-walk1.webp	97738	sha256:53dfb88c50b1ba3a
+assets/characters/doktor/left-walk2.webp	88938	sha256:c03455074fdca972
+assets/characters/reference/v6_7-doktor-qa.jpg	134928	sha256:dcdd0d434d719310
+assets/characters/reference/v6_7-doktor-source-atlas.png	809690	sha256:1b7578c7346ce205

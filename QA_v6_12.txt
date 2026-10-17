@@ -1,0 +1,36 @@
+TELKİN v6.12 QA RAPORU
+
+1) Sözdizimi / veri
+- JavaScript: 16/16 `node --check` PASS
+- JSON: 163/163 parse PASS
+- HTML yerel script/CSS referansları: 17 kontrol, eksik 0
+
+2) Hikâye / mekân
+- Bölüm: 144/144
+- Görev adımı: 958
+- Mekân: 108/108
+- Bilinmeyen görev mekânı: 0
+- Authored hedef koordinatı sahne zarfı dışında: 0
+
+3) Karakter runtime
+- Ana karakter: 11
+- Yön/yürüyüş karesi: 132/132
+- Eksik kare: 0
+- Yanlış runtime ölçüsü: 0
+- Standart: 384×768 WebP
+
+4) Fizik / kamera v6.12
+- Swept/sub-step movement guard: PASS
+- Sentetik ince duvar geçiş testi: PASS
+- Yürünebilir yol / hedef erişilebilirlik algoritması: PASS
+- Açık yol etrafından rota bulma sentetik testi: PASS
+- Tam ayrılmış bölgede hedefi erişilebilir tarafa alma sentetik testi: PASS
+- Döndürülmüş occluder AABB (90°) testi: PASS
+- Service Worker cache: telkin-v6-12-shell-1
+- Location loader version: 6.12.0
+
+5) Sınırlama
+- Bu ortamda yerel oyunu Chromium ile gerçek başsız tarayıcıda açma işlemi yönetici politikası nedeniyle çalıştırılamadı.
+- Bu rapor sözdizimi, veri, varlık, statik rota ve sentetik fizik testlerini kapsar; gerçek cihaz dokunmatik/kamera hissi için telefon staging testi yine gereklidir.
+
+Canlı GitHub değiştirilmedi.

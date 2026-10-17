@@ -1,0 +1,27 @@
+TELKİN v6.21 — CINEMATIC PROP FOCUS PATCH
+Base: v6.20 STAGING ACTIVE PROP USE
+
+CHANGED / ADDED
+- src/core/game.js
+  * cinematic held-prop focus envelope
+  * non-destructive over-shoulder camera blend
+  * camera viewfinder / phone call / document focus UI driver
+  * safe phone counterparty extraction from current step dialogue
+  * runtime version metadata 6.21
+- css/game.css
+  * cinematic letterbox and specialized prop HUDs
+- index.html
+  * cinematicUse overlay DOM
+- locales/tr.json / locales/en.json
+  * cinematic use labels
+- sw.js
+- README.md
+- PROJE_DURUMU.md
+- V6_21_PATCH_NOTES.md
+- QA_v6_21.txt
+
+UNCHANGED
+- 144 chapter gameplay data
+- save schema 18
+- v6.20 prop-use / sound / collision / persistence layers
+- live GitHub deployment

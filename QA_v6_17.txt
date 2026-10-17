@@ -1,0 +1,26 @@
+TELKİN v6.17 — STATIC / SAVE PERSISTENCE QA
+
+[OK] 16 JavaScript dosyası: node --check temiz.
+[OK] 163 JSON dosyası: parse hatası 0.
+[OK] assets.js içindeki 30 yerel asset yolu: eksik 0.
+[OK] 144 bölüm mevcut.
+[OK] 958 görev adımı mevcut; konuşma 263, fiziksel/non-dialogue 695.
+[OK] v6.16 → v6.17 gameplay veri dosyası SHA-256/binary olarak birebir korundu.
+[OK] Save schema 18.
+[OK] save payload içinde environmentState var.
+[OK] eski save migration → güvenli environmentState normalize zinciri var.
+[OK] atlas çevre anahtarı bölüm:mekân biçiminde.
+[OK] ışık/defter/perde/dolap/monitör/sandalye/çekmece durumları sahne yeniden kurulurken restore ediliyor.
+[OK] restore, ilk render öncesi q/target durumunu eşitliyor.
+[OK] açık çekmece dynamic collision callback'i restore edilmiş q durumunu kullanıyor.
+[OK] sandalye collision gerçek nesne footprint'ini izlemeye devam ediyor.
+[OK] hub arka kapısı save payload'a yazılıyor ve load sırasında doorOpen + doorAngle birlikte restore ediliyor.
+[OK] ışık restore'u WORLD_LIGHTS renklerini ve emissive nesneleri birlikte güncelliyor.
+[OK] çevre etkileşiminden sonra sessiz autosave tetikleniyor.
+[OK] Service Worker cache: telkin-v6-17-shell-1.
+[OK] index.html sürüm etiketi v6.17 ile eşleşiyor.
+
+SAHA QA NOTU
+- Bu ortamda gerçek mobil GPU/WebGL hissi güvenilir biçimde ölçülemiyor.
+- Telefonda özellikle: çekmeceyi/sandalyeyi açık bırak → otomatik kayıt → uygulamayı kapat → yeniden aç; ışık kapalı restore; hub kapısı açık restore; düşük FPS sırasında restore edilen collider kontrol edilmeli.
+- Canlı GitHub değiştirilmedi.

@@ -1,0 +1,29 @@
+TELKİN v6.20 — ACTIVE PROP USE PATCH
+Base: v6.19 STAGING HANDHELD PROPS
+
+CHANGED / ADDED
+- src/core/game.js
+  * active phone screen / call indicators
+  * recorder REC light + VU meters
+  * camera shutter button + aperture + flash
+  * document page flip + memory/photo inspection
+  * one-shot mid-use SFX latch
+  * runtime version metadata 6.20
+- src/audio/manager.js
+  * camera_shutter
+  * phone_connect
+  * recorder_rec
+  * page_flip
+  * photo_flip
+- index.html
+- sw.js
+- README.md
+- PROJE_DURUMU.md
+- V6_20_PATCH_NOTES.md
+- QA_v6_20.txt
+
+UNCHANGED
+- 144 chapter gameplay data
+- save schema 18
+- v6.19 character / location / collision / persistence layers
+- live GitHub deployment

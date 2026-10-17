@@ -1,0 +1,25 @@
+TELKİN v6.2 PATCH MANIFEST
+
+data/characters.json	14955	sha256:f0fa852f6cc8d2e1
+src/data/character-packs.js	17210	sha256:c145b102904c176f
+src/core/game.js	395206	sha256:d5a7adbe13a90397
+index.html	11377	sha256:d7a83b8e891cbb19
+sw.js	1562	sha256:eaa31527bc784328
+README.md	801	sha256:fc6b10551525391b
+PROJE_DURUMU.md	1370	sha256:4cbb627e97bf7e38
+V6_2_PATCH_NOTES.md	866	sha256:12093c1566775409
+assets/characters/kayitci/README.md	653	sha256:12d7e444cf0c741c
+assets/characters/kayitci/front-idle.webp	43422	sha256:62ef687d969c897d
+assets/characters/kayitci/front-walk1.webp	42854	sha256:a1d451f92c3a66c4
+assets/characters/kayitci/front-walk2.webp	40906	sha256:a6db85d0fa4a2912
+assets/characters/kayitci/back-idle.webp	42268	sha256:442d44885b95595f
+assets/characters/kayitci/back-walk1.webp	39032	sha256:57eafdfabda96c01
+assets/characters/kayitci/back-walk2.webp	41756	sha256:d3e6c262953c5a45
+assets/characters/kayitci/left-idle.webp	34038	sha256:a35658c955823300
+assets/characters/kayitci/left-walk1.webp	40564	sha256:893931c6901afdaf
+assets/characters/kayitci/left-walk2.webp	38376	sha256:188d780894934413
+assets/characters/kayitci/right-idle.webp	32242	sha256:a4b810a38e1763b5
+assets/characters/kayitci/right-walk1.webp	38974	sha256:3835224504113558
+assets/characters/kayitci/right-walk2.webp	36118	sha256:33b692433cbd5757
+assets/characters/reference/v6_2-kayitci-qa.jpg	177992	sha256:1b103f18bd3d19a6
+assets/characters/reference/v6_2-kayitci-source-atlas.png	906341	sha256:d458bc274e663442

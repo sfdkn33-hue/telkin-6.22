@@ -1,0 +1,9 @@
+TELKİN v6.11 PATCH
+src/core/location-loader.js
+src/data/character-packs.js
+src/core/game.js
+sw.js
+V6_11_PATCH_NOTES.md
+PATCH_MANIFEST_v6_11.txt
+PROJE_DURUMU.md
+QA_v6_11.txt

@@ -1,0 +1,26 @@
+TELKİN v6.14 — STATIC QA
+
+[OK] 16 JavaScript dosyası: node --check temiz.
+[OK] 163 JSON dosyası: parse hatası 0.
+[OK] assets.js içindeki 30 yerel asset yolu: eksik 0.
+[OK] 144 bölüm mevcut.
+[OK] 958 görev adımı mevcut.
+[OK] 263 konuşma adımı mevcut 3D NPC akışında.
+[OK] 695 fiziksel/non-dialogue görev adımı etkileşim katmanında.
+[OK] 12/12 fiziksel görev türü için prop factory mevcut.
+[OK] 12/12 fiziksel görev türü için v6.14 animasyon handler'ı mevcut.
+[OK] Tür dağılımı: inspect 177, document 163, route 116, door 44, memory 38, camera 35, hazard 31, body 25, observe 24, audio 18, phone 16, anomaly 8.
+[OK] Animasyon taban-pozu reset sistemi mevcut; drift birikimi yok.
+[OK] İptal/scene değişiminde fiziksel prop reset bağlantısı mevcut.
+[OK] Görev prop'ları non-solid kalıyor; oyuncuyu hedefte kilitleme riski artırılmadı.
+[OK] v6.13 gerçek arka kapı asseti, menteşe ve dinamik collision sistemi korunuyor.
+[OK] Service Worker cache: telkin-v6-14-shell-1.
+[OK] Sürüm etiketi: v6.14 · PHYSICAL INTERACTIONS.
+[OK] Canlı GitHub değiştirilmedi.
+
+SONRAKİ SAHA QA
+- Gerçek telefonda 12 etkileşim türünün animasyon hissi ve süreleri.
+- Kapı görev prop'larında görsel dönüş ile görev hedefi mesafesinin uyumu.
+- Telefon/kamera/belge animasyonlarında kamera yakınlık testi.
+- Düşük FPS cihazlarda etkileşim animasyonu + NPC eşzamanlılık testi.
+- Sonraki geliştirme: masa/sandalye/dolap/merdiven gibi görev dışı çevre nesnelerine seçici bağlamsal etkileşim.

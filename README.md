@@ -1,0 +1,13 @@
+# STAGING v6.22 — UZUN SÜRÜM OYNANIŞ
+
+v6.22 ile 144 bölümün fiziksel oynanış omurgası, romanın gerçek uzun metniyle senkronize edildi.
+
+- 144/144 bölüm: tam roman JSON kaynağı kullanılır.
+- Toplam roman metni: 318,974 kelime / 38,677 paragraf.
+- 372 fiziksel sahne kümesi uzun metindeki ardışık paragraf aralıklarına bağlandı.
+- Oyun sırası: fiziksel hedef -> uzun roman sahnesi -> sonraki fiziksel hedef.
+- Uzun metin sayfaları yaklaşık 240–330 kelimelik okunabilir kartlara bölünür.
+- Hiçbir paragraf atlanmaz; her bölümde ilk paragraftan son paragrafa kadar kapsama sağlanır.
+- Mevcut 958 fiziksel görev, karakter, mekân, nesne, collision ve sinematik sistemleri korunur.
+- Eski kısa beat/cutscene metinleri yalnız tam roman dosyası yüklenemezse fallback olarak kalır.
+- Canlı GitHub güncellenmedi.

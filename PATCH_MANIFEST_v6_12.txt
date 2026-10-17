@@ -1,0 +1,10 @@
+TELKİN v6.12 PATCH
+
+Değişen / eklenen dosyalar:
+- src/core/game.js
+- src/core/location-loader.js
+- sw.js
+- V6_12_PATCH_NOTES.md
+- PATCH_MANIFEST_v6_12.txt
+- QA_v6_12.txt
+- PROJE_DURUMU.md

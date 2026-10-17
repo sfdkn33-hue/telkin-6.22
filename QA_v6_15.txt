@@ -1,0 +1,28 @@
+TELKİN v6.15 — STATIC QA
+
+[OK] 16 JavaScript dosyası: node --check temiz.
+[OK] 163 JSON dosyası: parse hatası 0.
+[OK] assets.js içindeki 30 yerel asset yolu: eksik 0.
+[OK] 144 bölüm mevcut.
+[OK] 958 görev adımı mevcut; konuşma 263, fiziksel/non-dialogue 695.
+[OK] v6.14 fiziksel görev etkileşimleri ve 12 görev türü korunuyor.
+[OK] v6.15 seçici çevre sınıfları: ışık düğmesi, defter, perde, dolap/gardırop, sabit ekran.
+[OK] TR/EN bağlamsal istem anahtarları mevcut (çekirdek 10/10).
+[OK] ambient registry.
+[OK] mission priority.
+[OK] ambient prompt.
+[OK] ambient act.
+[OK] light physical.
+[OK] cabinet hinge.
+[OK] notebook animation.
+[OK] curtain animation.
+[OK] monitor animation.
+[OK] no context solid name.
+[OK] Service Worker cache: telkin-v6-15-shell-1.
+[OK] Sürüm etiketi: v6.15 · LIVING ENVIRONMENT.
+[OK] Canlı GitHub değiştirilmedi.
+
+SAHA QA NOTU
+- Bu ortamda headless Chromium WebGL/SwiftShader başlatılamadığı için gerçek zamanlı GPU oynanış testi güvenilir biçimde çalıştırılamadı.
+- Gerçek telefon testinde bağlamsal istem erişim mesafesi (1.48 m), görev önceliği ve ışık/dolap/perde animasyon hissi kontrol edilmeli.
+- Sonraki aday: sandalye/çekmece/merdiven gibi nesneleri ancak collision ve sahne amacı net olduğunda eklemek; her nesneyi tıklanabilir yapmamak.

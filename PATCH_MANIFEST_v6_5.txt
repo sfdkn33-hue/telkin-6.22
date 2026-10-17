@@ -1,0 +1,25 @@
+TELKİN v6.5 PATCH MANIFEST
+
+data/characters.json	18218	sha256:f55a362d3f9d9a8b
+src/data/character-packs.js	19524	sha256:5015bc200f293214
+src/core/game.js	395206	sha256:2188a3c2075afbea
+index.html	11422	sha256:a174278130369cbf
+sw.js	1562	sha256:50aaed2a2077756e
+README.md	635	sha256:8c2ce9af9a55483c
+PROJE_DURUMU.md	730	sha256:d0598849e69386d8
+V6_5_PATCH_NOTES.md	463	sha256:ef4f8c2215efa8aa
+assets/characters/suna/README.md	413	sha256:e854016a8fe71994
+assets/characters/suna/front-idle.webp	47310	sha256:4afba6759ac9df4a
+assets/characters/suna/front-walk1.webp	50490	sha256:abbdad7e31c3e3fb
+assets/characters/suna/front-walk2.webp	55452	sha256:23aaaa0298b4cd53
+assets/characters/suna/back-idle.webp	55200	sha256:279156965b05e3e2
+assets/characters/suna/back-walk1.webp	66946	sha256:dbfdf8214da18a2b
+assets/characters/suna/back-walk2.webp	52816	sha256:f13e56c764eac79e
+assets/characters/suna/left-idle.webp	39914	sha256:94ef4daeafdd5dcd
+assets/characters/suna/left-walk1.webp	55136	sha256:f91098761d6b18eb
+assets/characters/suna/left-walk2.webp	77278	sha256:007a6db703adbd1c
+assets/characters/suna/right-idle.webp	42854	sha256:d43ca8057891138e
+assets/characters/suna/right-walk1.webp	47006	sha256:65763b61b700ca7a
+assets/characters/suna/right-walk2.webp	69026	sha256:198378eea3795da4
+assets/characters/reference/v6_5-suna-qa.jpg	99588	sha256:1cf4a12c57c5ca2e
+assets/characters/reference/v6_5-suna-source-atlas.png	826687	sha256:9d45926296863b07

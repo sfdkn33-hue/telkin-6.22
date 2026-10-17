@@ -1,0 +1,10 @@
+TELKİN v6.10.2 PATCH MANIFEST
+
+src/core/game.js	395369	sha256:6eed60174ecb1bb1
+index.html	11465	sha256:99579fb978f44aac
+sw.js	1565	sha256:764fe4b3c45615e0
+data/characters.json	20368	sha256:cd9ca1dbb2238745
+src/data/character-packs.js	21025	sha256:27b8368ae7df0371
+README.md	524	sha256:8a6558662cc418c0
+PROJE_DURUMU.md	985	sha256:04877b549addeef6
+V6_10_2_PATCH_NOTES.md	478	sha256:a7200be5b8580b68

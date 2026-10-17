@@ -1,0 +1,187 @@
+const CACHE='telkin-v6-22-shell-1';
+const PREFIX='telkin-';
+const NOVEL=[
+  './novel/vol-1/chapter-001.json',
+  './novel/vol-1/chapter-002.json',
+  './novel/vol-1/chapter-003.json',
+  './novel/vol-1/chapter-004.json',
+  './novel/vol-1/chapter-005.json',
+  './novel/vol-1/chapter-006.json',
+  './novel/vol-1/chapter-007.json',
+  './novel/vol-1/chapter-008.json',
+  './novel/vol-1/chapter-009.json',
+  './novel/vol-1/chapter-010.json',
+  './novel/vol-1/chapter-011.json',
+  './novel/vol-1/chapter-012.json',
+  './novel/vol-1/chapter-013.json',
+  './novel/vol-1/chapter-014.json',
+  './novel/vol-1/chapter-015.json',
+  './novel/vol-1/chapter-016.json',
+  './novel/vol-1/chapter-017.json',
+  './novel/vol-1/chapter-018.json',
+  './novel/vol-1/chapter-019.json',
+  './novel/vol-1/chapter-020.json',
+  './novel/vol-1/chapter-021.json',
+  './novel/vol-1/chapter-022.json',
+  './novel/vol-1/chapter-023.json',
+  './novel/vol-1/chapter-024.json',
+  './novel/vol-1/chapter-025.json',
+  './novel/vol-1/chapter-026.json',
+  './novel/vol-1/chapter-027.json',
+  './novel/vol-1/chapter-028.json',
+  './novel/vol-1/chapter-029.json',
+  './novel/vol-1/chapter-030.json',
+  './novel/vol-1/chapter-031.json',
+  './novel/vol-1/chapter-032.json',
+  './novel/vol-1/chapter-033.json',
+  './novel/vol-1/chapter-034.json',
+  './novel/vol-1/chapter-035.json',
+  './novel/vol-1/chapter-036.json',
+  './novel/vol-2/chapter-037.json',
+  './novel/vol-2/chapter-038.json',
+  './novel/vol-2/chapter-039.json',
+  './novel/vol-2/chapter-040.json',
+  './novel/vol-2/chapter-041.json',
+  './novel/vol-2/chapter-042.json',
+  './novel/vol-2/chapter-043.json',
+  './novel/vol-2/chapter-044.json',
+  './novel/vol-2/chapter-045.json',
+  './novel/vol-2/chapter-046.json',
+  './novel/vol-2/chapter-047.json',
+  './novel/vol-2/chapter-048.json',
+  './novel/vol-2/chapter-049.json',
+  './novel/vol-2/chapter-050.json',
+  './novel/vol-2/chapter-051.json',
+  './novel/vol-2/chapter-052.json',
+  './novel/vol-2/chapter-053.json',
+  './novel/vol-2/chapter-054.json',
+  './novel/vol-2/chapter-055.json',
+  './novel/vol-2/chapter-056.json',
+  './novel/vol-2/chapter-057.json',
+  './novel/vol-2/chapter-058.json',
+  './novel/vol-2/chapter-059.json',
+  './novel/vol-2/chapter-060.json',
+  './novel/vol-2/chapter-061.json',
+  './novel/vol-2/chapter-062.json',
+  './novel/vol-2/chapter-063.json',
+  './novel/vol-2/chapter-064.json',
+  './novel/vol-2/chapter-065.json',
+  './novel/vol-2/chapter-066.json',
+  './novel/vol-2/chapter-067.json',
+  './novel/vol-2/chapter-068.json',
+  './novel/vol-2/chapter-069.json',
+  './novel/vol-2/chapter-070.json',
+  './novel/vol-2/chapter-071.json',
+  './novel/vol-2/chapter-072.json',
+  './novel/vol-3/chapter-073.json',
+  './novel/vol-3/chapter-074.json',
+  './novel/vol-3/chapter-075.json',
+  './novel/vol-3/chapter-076.json',
+  './novel/vol-3/chapter-077.json',
+  './novel/vol-3/chapter-078.json',
+  './novel/vol-3/chapter-079.json',
+  './novel/vol-3/chapter-080.json',
+  './novel/vol-3/chapter-081.json',
+  './novel/vol-3/chapter-082.json',
+  './novel/vol-3/chapter-083.json',
+  './novel/vol-3/chapter-084.json',
+  './novel/vol-3/chapter-085.json',
+  './novel/vol-3/chapter-086.json',
+  './novel/vol-3/chapter-087.json',
+  './novel/vol-3/chapter-088.json',
+  './novel/vol-3/chapter-089.json',
+  './novel/vol-3/chapter-090.json',
+  './novel/vol-3/chapter-091.json',
+  './novel/vol-3/chapter-092.json',
+  './novel/vol-3/chapter-093.json',
+  './novel/vol-3/chapter-094.json',
+  './novel/vol-3/chapter-095.json',
+  './novel/vol-3/chapter-096.json',
+  './novel/vol-3/chapter-097.json',
+  './novel/vol-3/chapter-098.json',
+  './novel/vol-3/chapter-099.json',
+  './novel/vol-3/chapter-100.json',
+  './novel/vol-3/chapter-101.json',
+  './novel/vol-3/chapter-102.json',
+  './novel/vol-3/chapter-103.json',
+  './novel/vol-3/chapter-104.json',
+  './novel/vol-3/chapter-105.json',
+  './novel/vol-3/chapter-106.json',
+  './novel/vol-3/chapter-107.json',
+  './novel/vol-3/chapter-108.json',
+  './novel/vol-4/chapter-109.json',
+  './novel/vol-4/chapter-110.json',
+  './novel/vol-4/chapter-111.json',
+  './novel/vol-4/chapter-112.json',
+  './novel/vol-4/chapter-113.json',
+  './novel/vol-4/chapter-114.json',
+  './novel/vol-4/chapter-115.json',
+  './novel/vol-4/chapter-116.json',
+  './novel/vol-4/chapter-117.json',
+  './novel/vol-4/chapter-118.json',
+  './novel/vol-4/chapter-119.json',
+  './novel/vol-4/chapter-120.json',
+  './novel/vol-4/chapter-121.json',
+  './novel/vol-4/chapter-122.json',
+  './novel/vol-4/chapter-123.json',
+  './novel/vol-4/chapter-124.json',
+  './novel/vol-4/chapter-125.json',
+  './novel/vol-4/chapter-126.json',
+  './novel/vol-4/chapter-127.json',
+  './novel/vol-4/chapter-128.json',
+  './novel/vol-4/chapter-129.json',
+  './novel/vol-4/chapter-130.json',
+  './novel/vol-4/chapter-131.json',
+  './novel/vol-4/chapter-132.json',
+  './novel/vol-4/chapter-133.json',
+  './novel/vol-4/chapter-134.json',
+  './novel/vol-4/chapter-135.json',
+  './novel/vol-4/chapter-136.json',
+  './novel/vol-4/chapter-137.json',
+  './novel/vol-4/chapter-138.json',
+  './novel/vol-4/chapter-139.json',
+  './novel/vol-4/chapter-140.json',
+  './novel/vol-4/chapter-141.json',
+  './novel/vol-4/chapter-142.json',
+  './novel/vol-4/chapter-143.json',
+  './novel/vol-4/chapter-144.json'
+];
+const SHELL=[
+  './','./index.html','./css/game.css',
+  './src/data/assets.js','./src/data/character-packs.js','./src/data/location-packs.js','./src/data/story.js','./src/data/locations.js','./src/data/gameplay.js','./src/data/long-play.js',
+  './src/i18n/loader.js','./locales/manifest.json','./locales/tr.json','./locales/en.json','./src/novel/reader.js','./src/novel/playback.js','./src/arcade/catalog.js','./src/core/location-loader.js','./src/audio/presets.js','./src/audio/manager.js','./audio/manifest.json','./novel/index.json',
+  './src/core/game.js','./src/core/rig-stub.js','./src/core/cutscene-trim.js',
+  './assets/props/door-wood.webp','./manifest.webmanifest',...NOVEL
+];
+
+self.addEventListener('install',event=>{
+  event.waitUntil(
+    caches.open(CACHE).then(cache=>cache.addAll(SHELL)).then(()=>self.skipWaiting())
+  );
+});
+
+self.addEventListener('activate',event=>{
+  event.waitUntil(
+    caches.keys()
+      .then(keys=>Promise.all(keys.filter(k=>k.startsWith(PREFIX)&&k!==CACHE).map(k=>caches.delete(k))))
+      .then(()=>self.clients.claim())
+  );
+});
+
+self.addEventListener('fetch',event=>{
+  if(event.request.method!=='GET') return;
+  const url=new URL(event.request.url);
+  if(url.origin!==self.location.origin) return;
+
+  event.respondWith(
+    fetch(event.request)
+      .then(response=>{
+        if(response && response.ok){
+          const copy=response.clone();
+          caches.open(CACHE).then(cache=>cache.put(event.request,copy)).catch(()=>{});
+        }
+        return response;
+      })
+      .catch(()=>caches.open(CACHE).then(cache=>cache.match(event.request)))
+  );
+});

@@ -1,0 +1,30 @@
+TELKİN v6.18 — STATIC / PHYSICAL BODY USE QA
+
+[OK] 16 JavaScript dosyası: node --check temiz.
+[OK] 163 JSON dosyası: parse hatası 0.
+[OK] assets.js içindeki 30 yerel asset yolu: eksik 0.
+[OK] 144 bölüm mevcut.
+[OK] 958 görev adımı mevcut; konuşma 263, fiziksel/non-dialogue 695.
+[OK] Beden koreografisi 579 fiziksel görev adımına tür bazlı bağlandı; 116 rota adımı yürüyüş olarak bırakıldı.
+[OK] v6.17 → v6.18 gameplay veri dosyası SHA-256/binary olarak birebir korundu.
+[OK] Mahir beden aksiyon state makinesi.
+[OK] üretim sprite korunuyor.
+[OK] kamera beden merkezini izliyor.
+[OK] oturma state + hareket kilidi.
+[OK] sandalye üç aşama prompt.
+[OK] kalkışta sandalye geri itiliyor.
+[OK] hub kapı beden koreografisi.
+[OK] chapter action senkron beden pozu.
+[OK] çevre eyleminde orta noktada nesne state değişimi.
+[OK] save schema değişmedi.
+[OK] TR v6.18 beden/sandalye anahtarları 6/6.
+[OK] EN v6.18 beden/sandalye anahtarları 6/6.
+[OK] Service Worker cache: telkin-v6-18-shell-1.
+[OK] index.html sürüm etiketi v6.18 ile eşleşiyor.
+[OK] Eski/primitif rig production fallback kapalı kalıyor.
+
+SAHA QA NOTU
+- Bu ortam gerçek telefon GPU/WebGL hissini güvenilir biçimde ölçemez.
+- Telefonda özellikle: sandalye çek → otur → kalk, açık sandalye save restore, hub kapısında uzanma, çekmecede eğilme ve dar odada kamera occlusion hissi kontrol edilmeli.
+- Foto-gerçek yönlü Mahir sprite sistemi korunmuştur; v6.18 yeni iskelet animasyon asseti üretmez, mevcut sprite taşıyıcısını beden/kamera koreografisiyle hareketlendirir.
+- Canlı GitHub değiştirilmedi.

@@ -1,0 +1,25 @@
+TELKİN v6.6 PATCH MANIFEST
+
+data/characters.json	19077	sha256:8a3983571e216cc4
+src/data/character-packs.js	20271	sha256:d5b8f6fdc5f538c7
+src/core/game.js	395206	sha256:4052c79e17ff5488
+index.html	11439	sha256:fcb4037effffdf84
+sw.js	1562	sha256:dd59200b39eec31f
+README.md	655	sha256:7593a61541a6b857
+PROJE_DURUMU.md	372	sha256:206fe72da0b564e9
+V6_6_PATCH_NOTES.md	323	sha256:81267636b1c31951
+assets/characters/muhafiz/README.md	236	sha256:585ca9f1e68a7467
+assets/characters/muhafiz/front-idle.webp	51416	sha256:250045d5003a2324
+assets/characters/muhafiz/front-walk1.webp	50616	sha256:d7f4a6fcee7f8b8b
+assets/characters/muhafiz/front-walk2.webp	67746	sha256:a670610e1e4fce7d
+assets/characters/muhafiz/back-idle.webp	134868	sha256:5efd9d2426cc22bc
+assets/characters/muhafiz/back-walk1.webp	60372	sha256:1f39f02fa37bd701
+assets/characters/muhafiz/back-walk2.webp	67516	sha256:6c0222d92c336ca6
+assets/characters/muhafiz/right-idle.webp	90496	sha256:ae022ff2a4823e54
+assets/characters/muhafiz/right-walk1.webp	45560	sha256:d74f2e8f98316ca3
+assets/characters/muhafiz/right-walk2.webp	67508	sha256:ecc42e551daa2386
+assets/characters/muhafiz/left-idle.webp	90742	sha256:3e592ca04a0b2835
+assets/characters/muhafiz/left-walk1.webp	50398	sha256:aad5f3543ca4a906
+assets/characters/muhafiz/left-walk2.webp	51340	sha256:424159dc651c9722
+assets/characters/reference/v6_6-muhafiz-qa.jpg	107039	sha256:9065cc24acd3d46a
+assets/characters/reference/v6_6-muhafiz-source-atlas.png	804632	sha256:8fedc31a761193be
