@@ -1,13 +1,28 @@
-# STAGING v6.22 — UZUN SÜRÜM OYNANIŞ
+# TELKİN ARCADE KATALOĞU — v5.5
 
-v6.22 ile 144 bölümün fiziksel oynanış omurgası, romanın gerçek uzun metniyle senkronize edildi.
+Arcade hikâyeyi kilitlemez. Kazanmak yalnız o bölümün ışıklı hedef işaretini ve yön yardımını açar; oyuncu mini oyunu atlayıp metre bilgisiyle ilerleyebilir.
 
-- 144/144 bölüm: tam roman JSON kaynağı kullanılır.
-- Toplam roman metni: 318,974 kelime / 38,677 paragraf.
-- 372 fiziksel sahne kümesi uzun metindeki ardışık paragraf aralıklarına bağlandı.
-- Oyun sırası: fiziksel hedef -> uzun roman sahnesi -> sonraki fiziksel hedef.
-- Uzun metin sayfaları yaklaşık 240–330 kelimelik okunabilir kartlara bölünür.
-- Hiçbir paragraf atlanmaz; her bölümde ilk paragraftan son paragrafa kadar kapsama sağlanır.
-- Mevcut 958 fiziksel görev, karakter, mekân, nesne, collision ve sinematik sistemleri korunur.
-- Eski kısa beat/cutscene metinleri yalnız tam roman dosyası yüklenemezse fallback olarak kalır.
-- Canlı GitHub güncellenmedi.
+## 14 oyun
+
+- REFLEKS — reaksiyon
+- YILAN — rota
+- HAFIZA — dizi hafızası
+- RAKET — pong
+- KAÇIŞ — kaçınma
+- KATMAN KIR — breakout
+- METEOR — otomatik ateş / kaçınma
+- SATRANÇ — kısa taktik
+- TAVLA — toplama bulmacası
+- TAŞ STRATEJİ — bağımsız gömülü strateji oyunu
+- LABİRENT — prosedürel rota bulma
+- 2048 — sayı birleştirme
+- KUTU İT — Sokoban tipi itme bulmacası
+- KOD KIR — Mastermind tipi mantık bulmacası
+
+## Ortak ilkeler
+
+- 6 kademeli zorluk: Başlangıç → Kolay → Orta → Zor → Usta → Uzman.
+- Mobil öncelikli dokunma/kaydırma kontrolleri.
+- Oyun seçme rafı: bölümün önerilen oyunu otomatik seçilir, oyuncu isterse başka bir oyunu seçebilir.
+- Her oyun aynı ödül sözleşmesini kullanır: başarı → bölüm işaretçisi açılır.
+- TAŞ STRATEJİ ayrı HTML olarak tutulur; diğer oyunlar ana arcade çalışma zamanında çalışır.
