@@ -1,24 +1,10 @@
-# TELKİN Ses Sistemi — v5.6
+# TELKİN v5.4 · Mekân paketleri
 
-Ses sistemi artık `src/audio/presets.js` + `src/audio/manager.js` tarafından yönetilir.
+Mekân sistemi artık iki katmanlıdır:
 
-## Katmanlar
-- `ambience/` — gerçek ortam loop dosyaları için.
-- `sfx/` — kapı, zar, kayıt glitch, UI, adım gibi dosya tabanlı efektler için.
-- `music/` — bölüm/motif müzikleri için.
-- `voice/tr/` — Türkçe karakter seslendirmeleri.
-- `voice/en/` — İngilizce karakter seslendirmeleri.
+1. **Çalışan procedural-pro set**: mevcut WebGL renderer gerçek dünya ölçeği, işlevsel zonlar, yaşanmışlık ayrıntıları ve sahneye özgü ışıkla ortamı kurar.
+2. **Lazy asset slotu**: her paket `scene.json` üzerinden ileride eklenecek GLB/PBR model, doku ve ambience dosyalarını tanımlar. Büyük varlıklar başlangıçta yüklenmez.
 
-## Şu anda çalışan gerçek zamanlı katman
-Harici ses dosyası olmadan çalışan WebAudio fallback sistemi vardır:
-- mekâna göre çapraz geçişli yağmur / rüzgâr / şehir / su / ateş / oda havası / hum / mağara / Doku katmanları,
-- yüzeye göre ayak sesleri,
-- kapı aç/kapat/kilit,
-- zar yuvarlama,
-- kamera glitch / anomali / Nihyel,
-- UI ve arcade başarı/başarısızlık cue’ları.
+`src/data/location-packs.js` 108 mekânın tamamının manifestidir. Hero paketler: office, lab, home, hospital, university, archive, cafe, bakery-street, school-night, station, management.
 
-Bunlar geçici "beep" yerine katmanlı prosedürel seslerdir. Gerçek kayıtlar geldiğinde `audio/manifest.json` ve aynı API üzerinden lazy-load edilebilir.
-
-## Seslendirme
-`VOICE_NAMING.md` standardını kullanır. Gerçek ses dosyası yoksa motor hata vermez ve sessiz devam eder.
+> Dürüstlük notu: v5.4 henüz tam glTF/GLB renderer değildir. Gerçek model dosyaları yoksa oyun mevcut procedural-pro seti kullanır. Uydurma model adıyla sahte 3D varlık gösterilmez.
